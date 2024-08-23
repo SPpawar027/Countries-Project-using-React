@@ -8,6 +8,7 @@ export const Header = () => {
         <p className="mr-6 font-semibold">
           <i className="ri-moon-clear-line text-2xl mr-2"></i> dark Mode
         </p>
+
       </div>
       <hr className="border-t-2 border-gray-300 shadow-md" />
     </>

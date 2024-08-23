@@ -1,21 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import { Outlet } from "react-router-dom";
 import { Header } from "./components/Header";
-import { Searchbar } from "./components/Searchbar";
-import { Menubar } from "./components/Menubar";
 
-import { Countriescontainer } from "./components/Countriescontainer";
-function App(){
+function App() {
+    return(
+      <>
+     
+         <Header />
+        <Outlet/>
 
-  return (
-    <div>
-      <Header/>
-      <div className="search flex justify-between ">
-        <Searchbar/>
-        <Menubar/>
-      </div>
-      <Countriescontainer/>
-    </div>
-  )
+    
+      
+      
+      </>
+    )
 }
 
 export default App;
